@@ -8,18 +8,18 @@ class AnalogClock {
 
         //Reads ints from user
       int degHour = scanner.nextInt();
-     int hour;
-     int degMin;
-     int min;
+      int hour;
+      int degMin;
+      int min;
  
        /*
         *  your code goes here
         */
-     hour = degHour / 30;
-     min = (degHour % 30) * 2;
-     degMin = min * 6;
+      hour = degHour / 30;
+      min = (degHour % 30) * 2;
+      degMin = min * 6;
  
-     System. out.println(degMin);
+      System. out.println(degMin);
         // closing the scanner object
         scanner.close();
     }
