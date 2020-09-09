@@ -19,7 +19,7 @@ class AnalogClock {
       min = (degHour % 30) * 2;
       degMin = min * 6;
  
-      System. out.println(degMin);
+      System. out.print(degMin);
         // closing the scanner object
         scanner.close();
     }

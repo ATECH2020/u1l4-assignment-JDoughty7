@@ -7,11 +7,9 @@ class StudentDesks {
         Scanner scanner = new Scanner(System.in);
 
         //Reads ints from user
-        System.out.println("Students A: ");
+      
        int numStudentsA = scanner.nextInt();
-       System.out.println("Student B: ");
        int numStudentsB = scanner.nextInt();
-       System.out.println("Students C: ");
        int numStudentsC = scanner.nextInt();
        int numDeskA;
        int numDeskB;
@@ -28,7 +26,7 @@ class StudentDesks {
       
        totalDesks = numDeskA + numDeskB + numDeskC;
  
-       System.out.println(totalDesks);
+       System.out.print(totalDesks);
 
         // closing the scanner object
         scanner.close();

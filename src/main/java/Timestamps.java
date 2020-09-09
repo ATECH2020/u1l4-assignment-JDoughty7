@@ -7,17 +7,12 @@ class Timestamps {
         Scanner scanner = new Scanner(System.in);
 
         //Reads ints from user
-        System.out.println(" First hours: ");
+       
         int hours1 = scanner.nextInt();
-        System.out.println(" First minutes: ");
        int minutes1 = scanner.nextInt();
-       System.out.println(" First seconds: ");
        int seconds1 = scanner.nextInt();
-       System.out.println(" Second hours: ");
        int hours2 = scanner.nextInt();
-       System.out.println(" Second minutes: ");
        int minutes2 = scanner.nextInt();
-       System.out.println(" Second seconds: ");
        int seconds2 = scanner.nextInt();
        int diffHours;
        int diffMins;
@@ -38,7 +33,7 @@ class Timestamps {
  
        totalSec = diffSec + convHours + convMins ;
  
-       System.out.println(totalSec);
+       System.out.print(totalSec);
 
 
         // closing the scanner object
